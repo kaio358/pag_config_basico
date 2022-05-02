@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/geral.css">
+    <link rel="stylesheet" href="css/dados_endereco.css">
+    <link rel="shortcut icon" href="image/coracao.png" type="image/x-icon">
+    <title>Só Básico</title>
+</head>
+<body>
+    <input type="checkbox" id="barra_lateral">
+    <label for="barra_lateral" id="barra_participantes" onclick="altera_image()">
+        <img src="image/white-24-left/2x/outline_chevron_left_white_24dp.png" id='imagem_seta'alt="">
+    </label>
+    <aside id="menu_lateral">
+        
+        <div id="image_perfil_demonstracao">
+            <img src="image/black-24dp/2x/outline_perm_identity_black_24dp.png" alt="">
+            <span>User123456</span>
+        </div>
+        <nav>
+            <a href="usuario_configuracao.html" class="opcao op_1">Perfil</a>
+            <a href="caixa_endereco.html" class="opcao op_2">Endereço</a>
+            <a href="notificacao.html" class="opcao op_3">Notificação</a>
+
+        </nav>
+    </aside>
+    <main id="principal">
+        <section id="titulo_apresentacao" >
+            <h1>Endereço</h1>
+            <hr>
+        </section>
+        <section id="caixa_de_notificacoes">
+            <form action="">
+                
+                <div>
+                    <div class="div_campos  div_camp_1">
+                        <input type="text" placeholder="cep" class="campo" value="CEP">
+                        
+                    </div>
+                    <div class="div_campos div_camp_2">
+                        <input type="text" name="" id="" class="campo" placeholder="Endereço" value="endereço....">
+                        <input type="number" name="" id="" class="campo" placeholder="Nº" value="1231">
+                        
+                    </div>
+                    <div class="div_campos div_camp_3">
+                        <input type="text" name="" id="" class="campo" placeholder="Complemento" >
+                    </div>
+
+                    <div class="div_campos div_camp_4">
+                        <input type="text" name="" id="" class="campo" placeholder="Bairro " value="bairro">
+                        
+                    </div>
+                    <div class="div_campos  div_camp_5">
+                        <input type="text" class="campo"  placeholder="Cidade" value="cidade">
+                        <input type="text" name="" id=""  class="campo"placeholder="UF" value="UF">
+                    </div>
+                </div>
+                
+
+                <div id="finalizar">
+                    <button>Confirmar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
+

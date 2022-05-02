@@ -1,0 +1,13 @@
+#principal form{
+    display: block;
+    width: 80%;
+    margin: auto;
+   
+}
+
+.campo{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 0;
+}

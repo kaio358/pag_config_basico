@@ -1,0 +1,91 @@
+#edite_foto{
+    align-self: flex-start;
+    justify-self: baseline;
+    border: 2px solid #111;
+    border-radius: 50%;
+    padding: 3vh;
+    margin-left: 30px;
+    
+    
+}
+
+
+#editar{
+    display: none;
+}
+.edit_upload{
+   
+    position:absolute;
+    opacity: 0;
+    width: 150px;
+   
+    background-color: var(--color-cinza-risco) ;
+  
+    
+    box-shadow: 0 0 3px 0  rgba(0,0,0,0.5);
+    box-sizing: border-box;
+    
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+  
+    z-index: -1;
+    transition: 350ms ease-in-out;
+}
+ .edit_upload a{
+    color: white;
+    text-decoration: none;
+  
+ }
+
+#editar:checked ~ .edit_upload{
+    opacity: 1;
+    z-index: 999;
+}
+
+
+
+.div_camp_3{
+    grid-column-start: 1;   
+    grid-column-end: 3;   
+    justify-self: center;
+}
+
+input[type=date]{
+    width: 45%;
+    margin: auto;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-radius: 0;
+    text-align: center;
+    margin-top: 12px;
+    
+}
+
+.op_1{
+    border: 2px solid var(--color-cinza-risco);
+    border-radius: 10px;
+    background-color: #14171b;
+}
+
+
+
+@media(max-width: 600px){
+   
+    input[type=date]{
+        width: 100%;
+      
+        
+    }
+    #edite_foto{
+        
+        border-radius: 50%;
+        width: 48px;
+        height: 48px;
+        /* position: relative;
+        left: 20vw; */
+        margin: auto;
+        margin-top: 15px;
+    }
+   
+}

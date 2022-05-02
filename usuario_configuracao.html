@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/geral.css">
+    <link rel="stylesheet" href="css/user_setting.css">
+    <script src="script/altera_image.js"></script>
+
+    <link rel="shortcut icon" href="image/coracao.png" type="image/x-icon">
+    <title>Só Básico</title>
+</head>
+<body>
+   
+        <input type="checkbox" id="barra_lateral">
+        <label for="barra_lateral" id="barra_participantes" onclick="altera_image()">
+            <img src="image/white-24-left/2x/outline_chevron_left_white_24dp.png" id='imagem_seta'alt="">
+        </label>
+        <aside id="menu_lateral">
+            <div id="image_perfil_demonstracao">
+                <img src="image/black-24dp/2x/outline_perm_identity_black_24dp.png" alt="">
+                <span>User123456</span>
+            </div>
+            <nav>
+                <a href="usuario_configuracao.html" class="opcao op_1">Perfil</a>
+                <a href="caixa_endereco.html" class="opcao op_2">Endereço</a>
+                <a href="notificacao.html" class="opcao op_3">Notificação</a>
+    
+            </nav>
+        </aside>
+        
+        <main id="principal">
+            <section id="titulo_apresentacao">
+                <h1>Configuração do Perfil</h1>
+                <hr>
+            </section>
+            <form action="">
+                
+                <div>
+                    <div class="div_campos  div_camp_1">
+                        <input type="text" placeholder="Nome" class="campo">
+                        
+                    </div>
+                    <div class="div_campos div_camp_2">
+                        <input type="password" name="" id="" class="campo" placeholder="Senha">
+                        <input type="password" name="" id="" class="campo" placeholder="Confirmar senha">
+                    </div>
+                    <div class="div_campos div_camp_3">
+                        <input type="date" name="" id="" class="campo" >
+                    </div>
+
+                    <div class="div_campos div_camp_4">
+                        <input type="tel" name="" id="" class="campo" placeholder="Número de telefone ">
+                        <input type="tel" name="" id="" class="campo" placeholder="Número do celular ">
+                        
+                    </div>
+                    
+                </div>
+                <div  id="edite_foto" >
+                    <input type="checkbox" name="" id="editar">
+                    <label  for="editar">
+                        <img src="image/black-24dp/2x/outline_perm_identity_black_24dp.png" alt="">
+                        
+        
+                    </label>
+                    <div class="edit_upload">
+                        <a href="#"><i > <span>upload</span></i></a>
+                        <br>
+                        <a href="#"><i > <span>edite</span></i></a>
+                    </div>
+                </div>
+                
+
+
+
+
+                <div id="finalizar">
+                    <button>Confirmar</button>
+                </div>
+            </form>
+        </main>
+</body>
+</html>

@@ -1,0 +1,12 @@
+#principal form{
+    display: block;
+    width: 80%;
+    margin: auto;
+   
+}
+.op_2{
+    border: 2px solid var(--color-cinza-risco);
+    border-radius: 10px;
+    background-color: #14171b;
+}
+

@@ -1,0 +1,14 @@
+#titulo_e_remetente{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-bottom: 8vh;
+
+}
+
+
+#titulo_e_remetente h3{
+    justify-self: start;
+
+    color: rgb(163, 11, 11);
+
+}
